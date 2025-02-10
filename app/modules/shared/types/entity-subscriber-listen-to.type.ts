@@ -1,2 +1,2 @@
-// eslint-disable-next-line @typescript-eslint/ban-types
+/* eslint-disable @typescript-eslint/no-unsafe-function-type */
 export type EntitySubscriberListenTo = Function | string;
