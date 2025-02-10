@@ -1,7 +1,7 @@
-import { User } from "../models/user.model";
+import { FindUserResponseInterface } from './find-user-response.interface';
 
 export class FindUsersByCriteriaResponseInterface {
-	data: Array<User>;
+	data: Array<FindUserResponseInterface>;
 
 	count: number;
 

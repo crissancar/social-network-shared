@@ -3,4 +3,6 @@ import { User } from '../models/user.model';
 
 export class FindUserRequestInterface {
 	options: FindByOptions<User>;
+
+	correlation: string;
 }

@@ -2,7 +2,7 @@ import { EventPayload } from '../interfaces/event-payload.interface';
 import { Uuid } from './uuid.service';
 
 interface Request {
-	correlation: never;
+	correlation: string;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	[key: string]: any;
 }
